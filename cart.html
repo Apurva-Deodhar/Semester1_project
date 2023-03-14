@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <a href="bookstore.html"><img src="exit.png" style="width:40px; float:right " alt="Exit"></a>
+
+    <h1 align="center">Shopping Cart</h1>
+    <hr>
+
+    <form>
+       
+        <label> Name </label>         
+        <input type="text" placeholder="Enter Name" name="name" cols="10" rows="5"> <br> <br>
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter Email" name="email" id="email">
+        <br> <br>
+   
+        <label> Phone Number </label>  
+        
+            <input type="text" name="country code"  value="+91" size="2"/>   
+            <input type="text" name="phone" size="10"/> <br> <br> 
+        
+       <label> Address </label>
+        <br>
+        <textarea cols="50" rows="5" placeholder="Enter Address" value="address">  
+        </textarea> <br> <br>
+        
+        <label>No of Books</label>
+        <br>
+        <input type="text" name="no"><br><br>
+        
+        <label>Cost Of Books</label> 
+        <br>
+        <input type="text"name="cost"><br><br>
+
+        <label>   
+            Choose a payment method 
+         </label> 
+     
+         <select>  
+         <option value="Credit Card">Credit Card</option>  
+         <option value="Debit Card">Debit Card</option>  
+         <option value="UPI">UPI</option> 
+         <option value="Net Banking">Net Banking</option> 
+         <option value="Cash On Delivery">Cash On Delivery</option>  
+         <option value="EMI">EMI</option>  
+         </select> <br> <br> 
+
+         <input type="submit" value="Check Out"/>
+         <input type="reset" value="Refresh">
+    </form>
+</body>
+</html>
